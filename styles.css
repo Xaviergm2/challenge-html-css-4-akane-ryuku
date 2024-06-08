@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffd2d2 0%, #ffd2d2 50%, #ffd2d2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  text-align: center;
+  width: 300px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #000000;
+}
+
+p {
+  color: #000000;
+  margin: 8px 0 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.follow-btn,
+.message-btn {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.follow-btn {
+  background: linear-gradient(135deg, #fa3967, #fa9639);
+  color: white;
+}
+
+.message-btn {
+  background-color: #ffedd2;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.message-btn::before {
+  content: "💬";
+  margin-right: 8px;
+}
